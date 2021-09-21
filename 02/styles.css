@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #e5e5e5;
   display: flex;
   padding-top: 5rem;
@@ -61,4 +61,16 @@ body {
 
 .done {
   background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.hold {
+  border: 5px solid #eeeeee;
+}
+
+.hide {
+  display: none;
+}
+
+.hovered {
+  border-top: 2px solid #8ed7ed;
 }
