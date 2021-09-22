@@ -64,7 +64,10 @@ body {
 }
 
 .hold {
-  border: 5px solid #eeeeee;
+  border-radius: 0;
+  background-color: #c4c4c4;
+  color: #000000;
+  width: 130px;
 }
 
 .hide {
