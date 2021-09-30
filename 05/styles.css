@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Khula&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Khula&display=swap");
 
 * {
   box-sizing: border-box;
@@ -6,7 +6,7 @@
 
 body {
   color: #fff;
-  font-family: 'Khula', sans-serif;
+  font-family: "Khula", sans-serif;
   height: 100vh;
   overflow: hidden;
   margin: 0;
@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  color: #16D9E3;
+  color: #16d9e3;
 }
 
 .start {
@@ -39,7 +39,7 @@ h1 {
   height: 100vh;
   width: 100vw;
   transition: margin 0.5s ease-out;
-  background: linear-gradient(90deg, #29323C 0%, #485563 100%);
+  background: linear-gradient(90deg, #29323c 0%, #485563 100%);
 }
 
 .screen.up {
@@ -60,17 +60,17 @@ h1 {
 
 .time-btn {
   background-color: transparent;
-  border: 2px solid #C0C0C0;
+  border: 2px solid #c0c0c0;
   color: #fff;
   cursor: pointer;
   font-family: inherit;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   font-size: 1.5rem;
 }
 
 .time-btn:hover {
-  border: 2px solid #16D9E3;
-  color: #16D9E3;
+  border: 2px solid #16d9e3;
+  color: #16d9e3;
 }
 
 .hide {
@@ -78,7 +78,7 @@ h1 {
 }
 
 .primary {
-  color: #16D9E3;
+  color: #16d9e3;
 }
 
 .board {
@@ -88,14 +88,13 @@ h1 {
   position: relative;
   width: 500px;
   height: 500px;
-  background: linear-gradient(118.38deg, #29323C -4.6%, #485563 200.44%);
-  box-shadow: -8px -8px 20px #2A333D, 10px 7px 20px #475462;
+  background: linear-gradient(118.38deg, #29323c -4.6%, #485563 200.44%);
+  box-shadow: -8px -8px 20px #2a333d, 10px 7px 20px #475462;
   border-radius: 30px;
   overflow: hidden;
 }
 
 .circle {
-  background: linear-gradient(90deg, #16D9E3 0%, #30C7EC 47%, #46AEF7 100%);
   position: absolute;
   border-radius: 50%;
   cursor: pointer;
