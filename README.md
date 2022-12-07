@@ -5,4 +5,4 @@
 
  - jQuery-cookie - Установка cookie с помощью jQuery.
  
- -jQuery_form_validation - Валидация форм с момощью jQuery.
+ - jQuery_form_validation - Валидация форм с момощью jQuery.
